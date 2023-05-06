@@ -2,20 +2,23 @@ const add = function (x, y) {
   return x + y;
 };
 
-const subtract = function () {
-
+const subtract = function (x, y) {
+  return x - y;
 };
 
-const sum = function () {
-
+const sum = function (inputArray) {
+  if (inputArray.length === 0) return 0;
+  inputArray.reduce((acc, curr) => {
+    acc + curr, 0
+  })
 };
 
-const multiply = function () {
-
+const multiply = function (x, y) {
+  return x * y;
 };
 
-const power = function () {
-
+const power = function (x, y) {
+  return x ** y;
 };
 
 const factorial = function () {
