@@ -8,6 +8,7 @@ const subtract = function (x, y) {
 
 const sum = function (inputArray) {
   if (inputArray.length === 0) return 0;
+  else if (inputArray.length === 1) return inputArray[0];
   inputArray.reduce((acc, curr) => {
     acc + curr, 0
   })
